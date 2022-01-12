@@ -55,7 +55,6 @@ chmod +x /var/run/screen
 ## Description :
 =====================================-{ Autoscript Premium }-===============================
 
---------------------------------------------------------------------------------------------
    >>> Service & Port
    - OpenSSH                 : 22
    - OpenVPN                 : TCP 1194, UDP 2200
@@ -73,11 +72,13 @@ chmod +x /var/run/screen
    - XRAY VLESS WS TLS       : 443
    - XRAY TROJAN TLS         : 443
    - XRAY VMESS TLS          : 443
-   - V2RAY VLESS TLS SPLICE  : 8080
-   - V2RAY VLESS TLS DIRECT  : 8080
-   - V2RAY VLESS WS TLS      : 8080
-   - V2RAY TROJAN TLS        : 8080
-   - V2RAY VMESS TLS         : 8080
+   - XRAY VLESS WS NONE      : 80
+   - V2RAY VLESS TLS SPLICE  : 8443
+   - V2RAY VLESS TLS DIRECT  : 8443
+   - V2RAY VLESS WS TLS      : 8443
+   - V2RAY TROJAN TLS        : 8443
+   - V2RAY VMESS TLS         : 8443
+   - V2RAY VLESS WS NONE     : 8080
    - Trojan-GFW              : 2087
 
    >>> Server Information & Other Features
@@ -90,9 +91,7 @@ chmod +x /var/run/screen
    - Auto-Remove-Expired      : [ON]
    - Installation Log --> /root/log-install.txt
 
-   - Installation Log --> /root/log-install.txt
-
------------------------------Script by RARE-------------------------------------
+               Script by VPNSHOPEE | Telegram: @vpnshopee
 
 ## Credit :
 * MACK-A
